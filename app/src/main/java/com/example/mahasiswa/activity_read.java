@@ -1,5 +1,6 @@
 package com.example.mahasiswa;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
@@ -26,6 +27,9 @@ public class activity_read extends AppCompatActivity implements ListView.OnItemC
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_read);
 

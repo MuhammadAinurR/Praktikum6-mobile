@@ -18,7 +18,8 @@
             android:id="@+id/id"
             android:text="ssss"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"/>
 
     </LinearLayout>
 
@@ -33,7 +34,8 @@
             android:id="@+id/nama"
             android:text="aaa"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"/>
     </LinearLayout>
 
 </RelativeLayout>
